@@ -1,0 +1,22 @@
+const dotenv=require('dotenv').config()
+
+const MONGODB_CONNECTION_STRING=process.env.MONGODB_CONNECTION_STRING
+
+const ACCESS_TOKEN_SECRET=process.env.ACCESS_TOKEN_SECRET
+
+const REFRESH_TOKEN_SECRET=process.env.REFRESH_TOKEN_SECRET
+
+const MY_EMAIL= process.env.MY_EMAIL
+
+const MY_PASSWORD= process.env.MY_PASSWORD
+
+const OPENCAGE_API_KEY=process.env.OPENCAGE_API_KEY
+
+module.exports={
+    MONGODB_CONNECTION_STRING, 
+    ACCESS_TOKEN_SECRET,
+    REFRESH_TOKEN_SECRET,
+    MY_EMAIL,
+    MY_PASSWORD,
+    OPENCAGE_API_KEY
+}
